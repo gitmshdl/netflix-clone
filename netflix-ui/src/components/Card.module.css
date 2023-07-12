@@ -1,0 +1,95 @@
+.content {
+  max-width: 230px;
+  width: 230px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  color: white;
+}
+
+.content > img {
+  border-radius: 0.2rem;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.hover {
+  z-index: 99;
+  height: max-content;
+  width: 20rem;
+  position: absolute;
+  top: -18vh;
+  left: 0;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
+  background-color: #181818;
+  transition: 0.3s ease-in-out;
+}
+
+.image {
+  position: relative;
+  height: 140px;
+}
+
+.image > img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  top: 0;
+  z-index: 4;
+  position: absolute;
+}
+
+.image > video {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  top: 0;
+  z-index: 5;
+  position: absolute;
+}
+
+.infoc {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.controls > svg {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    color: #b8b8b8;
+  }
+}
+
+.genres {
+  display: flex;
+}
+
+.flex > li {
+  padding-right: 0.7rem;
+  &:first-of-type {
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+}
+
+.scrolled {
+  background-color: black;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand > img {
+  height: 3rem;
+}
